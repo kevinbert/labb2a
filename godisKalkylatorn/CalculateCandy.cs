@@ -4,7 +4,7 @@ using System.Text;
 
 namespace godisKalkylatorn
 {
-    class CalculateCandy
+    public class CalculateCandy
     {
 
 

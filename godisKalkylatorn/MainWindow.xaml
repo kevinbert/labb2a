@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtBoxFirstName" HorizontalAlignment="Left" Margin="182,32,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="33"/>
-        <TextBox x:Name="txtBoxLastName"  HorizontalAlignment="Left" Margin="182,80,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="28"/>
-        <TextBox x:Name="txtBoxAge" HorizontalAlignment="Left" Margin="182,126,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="33"/>
+        <TextBox x:Name="txtBoxFirstName" HorizontalAlignment="Left" Margin="182,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="33"/>
+        <TextBox x:Name="txtBoxLastName"  HorizontalAlignment="Left" Margin="182,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="28"/>
+        <TextBox x:Name="txtBoxAge" HorizontalAlignment="Left" Margin="182,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="33"/>
         <Button x:Name="btnAdd" Content="lägg till" HorizontalAlignment="Left" Margin="232,180,0,0" VerticalAlignment="Top" Height="37" Width="143" Click="btnAdd_Click"/>
         <ListBox x:Name="lstBoxPeople" Margin="26,234,384,24"/>
-        <TextBox x:Name="txtBoxCandies" HorizontalAlignment="Left" Margin="618,158,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="40"/>
-        <Button x:Name="btnShare" Content="Fördela" HorizontalAlignment="Left" Margin="618,322,0,0" VerticalAlignment="Top" Height="42" Width="104"/>
+        <TextBox x:Name="txtBoxCandies" HorizontalAlignment="Left" Margin="618,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="40"/>
+        <Button x:Name="btnShare" Content="Fördela" HorizontalAlignment="Left" Margin="618,322,0,0" VerticalAlignment="Top" Height="42" Width="104" Click="btnShare_Click"/>
 
     </Grid>
 </Window>

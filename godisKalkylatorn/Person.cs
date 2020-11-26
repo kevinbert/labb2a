@@ -15,7 +15,7 @@ namespace godisKalkylatorn
 
         public override string ToString()
         {
-            return $"{Firstname} {LastName} {Age}";
+            return $"{Firstname} {LastName} {Age} {CandyAmount}";
         }
 
 

@@ -18,14 +18,17 @@ namespace godisKalkylatorn
             person.Firstname = "ahmed";
             person.LastName = "muhammed";
             person.Age = 12;
+            
 
             person2.Firstname = "mawran";
             person2.LastName = "ftt";
             person2.Age = 42;
+            
 
             person3.Firstname = "kuken";
             person3.LastName = "asdfff";
             person3.Age = 23;
+            
 
             People = new List<Person>();
             People.Add(person);

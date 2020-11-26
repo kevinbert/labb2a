@@ -50,15 +50,20 @@ namespace godisKalkylatorn
             Person person = new Person();
             person.Firstname = txtBoxFirstName.Text;
             person.LastName = txtBoxLastName.Text;
-            person.Age = 8;
+            person.Age = int.Parse(txtBoxAge.Text);
 
 
-            
+
             people.Add(person);
             lstBoxPeople.ItemsSource = null;
             lstBoxPeople.ItemsSource = people;
 
 
+        }
+
+        private void btnShare_Click(object sender, RoutedEventArgs e)
+        {
+            //int candies = int.Parse(txtBoxCandies.Text);
         }
     }
 }
